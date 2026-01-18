@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/*nav style*/
+.list{
+    display: flex;
+    gap: 35px;
+    
+}
+.nav-item{
+    list-style: none;
+    margin:36px auto;
+}
+.nav-link{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 400;
+    
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    height: 92px;
+    max-width: 1600px;
+    width: 100%;
+    background-color: #412567;   
+}
+.nav-container h3{
+    margin: 30px 0 30px 200px;
+    width: 219px;
+    height: 32px;
+    color: #FFFFFF;
+    font-size: 2rem;
+    
+}
+.nav-container .colorful{
+    background: linear-gradient(90deg,#ee5170, rgb(240, 136, 240));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+.btn-primary{
+    margin:24px 200px 24px 0;
+    padding:12px 40px 12px 16px;
+    border-radius: 10px;
+    background: linear-gradient(35deg,hsl(60, 83%, 54%), #dd68b6, #e022a7) ;
+}
+/*nav style Ends/*
