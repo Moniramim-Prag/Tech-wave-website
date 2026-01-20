@@ -373,6 +373,7 @@ footer .new-color{
     flex-direction: column;
 }
 .host-container{
+    margin: 0 auto;
     flex-direction: column;
 }
 }
